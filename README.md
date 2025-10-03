@@ -42,7 +42,3 @@ Montar un honeypot básico que:
 ## 📦 Estado del proyecto
 - **Estado:** En desarrollo  
 - **Autor:** Victor Suarez Cruz  
-
----
-
-## 📂 Estructura del repositorio
