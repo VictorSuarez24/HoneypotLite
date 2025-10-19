@@ -1,0 +1,14 @@
+[Unit]
+Description=HoneypotLite simple listener
+After=network.target
+
+[Service]
+Type=simple
+User=honeypot
+Group=honeypot
+ExecStart=/usr/bin/python3 /usr/local/bin/honeypot_listener.py
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
